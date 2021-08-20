@@ -1,0 +1,37 @@
+body {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.soft-border{
+    border: 5px solid lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+
+.page-title {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 20px;
+}
+
+@media (min-width: 1024px) {
+
+body {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+    .soft-border{
+        background-color: grey;
+        color: darkgreen;
+        
+    }
+
+
+}
